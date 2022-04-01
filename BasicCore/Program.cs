@@ -11,6 +11,7 @@ namespace BasicCore
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Basic Core Programms.");
+            FlipCoin.CountFip();
             Console.ReadLine();
         }
     }
