@@ -13,7 +13,7 @@ namespace BasicCore
             Console.WriteLine("Enter a Year (4 Digit) to find is it Leap year on not : ");
             int year = Convert.ToInt32(Console.ReadLine());
 
-            if ( (year%4==0) || (year%100!=0) && (year%400==0) )
+            if ( (year%4==0) && (year%100!=0) || (year%400==0) )
             {
                 Console.WriteLine("Entered Year {0} is Leap Year.",year);
             }
