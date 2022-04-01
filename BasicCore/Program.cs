@@ -14,7 +14,7 @@ namespace BasicCore
             Console.WriteLine("Choose what you want to do ?");
             Console.WriteLine("1 - Flip Coin\n2 - Find Leap Year\n3 - Fond Power of 2\n4 - Find Harmonic Series" +
                 "\n5 - Find Factors\n6 - Find Quotient & Remainder\n7 - Swap 2 Numbers\n8 - Find number is even or odd" +
-                "");
+                "\n9 - Alphabate is Vowel or Consonent\n10 - Largest number");
             int n = Convert.ToInt32(Console.ReadLine());
 
             switch (n)
@@ -44,6 +44,7 @@ namespace BasicCore
                     EvenOdd.Find_EvenorOdd();
                     break;
                 case 9:
+                    VowelorConsonent.Vowel_Consonent();
                     break;
                 case 10:
                     break;
