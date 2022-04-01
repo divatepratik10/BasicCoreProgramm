@@ -47,6 +47,7 @@ namespace BasicCore
                     VowelorConsonent.Vowel_Consonent();
                     break;
                 case 10:
+                    LargeNumber.FindLarge_Number();
                     break;
                 default:
                     Console.WriteLine("Something Went Wrong........");
