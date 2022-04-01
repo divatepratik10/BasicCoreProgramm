@@ -13,7 +13,7 @@ namespace BasicCore
             Console.WriteLine("Welcome to Basic Core Programms.");
             Console.WriteLine("Choose what you want to do ?");
             Console.WriteLine("1 - Flip Coin\n2 - Find Leap Year\n3 - Fond Power of 2\n4 - Find Harmonic Series" +
-                "\n5 - Find Factors\n6 - Find Quotient & Remainder");
+                "\n5 - Find Factors\n6 - Find Quotient & Remainder\n7 - Swap 2 Numbers.");
             int n = Convert.ToInt32(Console.ReadLine());
 
             switch (n)
@@ -35,6 +35,9 @@ namespace BasicCore
                     break;
                 case 6:
                     QuotientnRemainder.QR();
+                    break;
+                case 7:
+                    Swap.Swapnumbers();
                     break;
                 default:
                     Console.WriteLine("Something Went Wrong........");
