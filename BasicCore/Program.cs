@@ -12,7 +12,8 @@ namespace BasicCore
         {
             Console.WriteLine("Welcome to Basic Core Programms.");
             Console.WriteLine("Choose what you want to do ?");
-            Console.WriteLine("1 - Flip Coin\n2 - Find Leap Year\n3 - Fond Power of 2\n4 - Find Harmonic Series");
+            Console.WriteLine("1 - Flip Coin\n2 - Find Leap Year\n3 - Fond Power of 2\n4 - Find Harmonic Series" +
+                "\n5 - Find Factors");
             int n = Convert.ToInt32(Console.ReadLine());
 
             switch (n)
@@ -28,6 +29,9 @@ namespace BasicCore
                     break;
                 case 4:
                     HarmonicNumber.FindHarmonicSeries();
+                    break;
+                case 5:
+                    Factors.FindFactors();
                     break;
                 default:
                     Console.WriteLine("Something Went Wrong........");
