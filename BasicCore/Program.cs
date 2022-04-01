@@ -13,7 +13,8 @@ namespace BasicCore
             Console.WriteLine("Welcome to Basic Core Programms.");
             Console.WriteLine("Choose what you want to do ?");
             Console.WriteLine("1 - Flip Coin\n2 - Find Leap Year\n3 - Fond Power of 2\n4 - Find Harmonic Series" +
-                "\n5 - Find Factors\n6 - Find Quotient & Remainder\n7 - Swap 2 Numbers.");
+                "\n5 - Find Factors\n6 - Find Quotient & Remainder\n7 - Swap 2 Numbers\n8 - Find number is even or odd" +
+                "");
             int n = Convert.ToInt32(Console.ReadLine());
 
             switch (n)
@@ -38,6 +39,13 @@ namespace BasicCore
                     break;
                 case 7:
                     Swap.Swapnumbers();
+                    break;
+                case 8:
+                    EvenOdd.Find_EvenorOdd();
+                    break;
+                case 9:
+                    break;
+                case 10:
                     break;
                 default:
                     Console.WriteLine("Something Went Wrong........");
