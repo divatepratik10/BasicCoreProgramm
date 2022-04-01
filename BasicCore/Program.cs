@@ -12,6 +12,8 @@ namespace BasicCore
         {
             Console.WriteLine("Welcome to Basic Core Programms.");
             FlipCoin.CountFip();
+
+            LeapYear.FindLeapYR();
             Console.ReadLine();
         }
     }
